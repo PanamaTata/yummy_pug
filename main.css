@@ -1,0 +1,106 @@
+:root {
+    --brand-color: #774E2E;
+    --title-color: #F37F34;
+    --light-color: #FFF9EA;
+
+}
+
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header_link {
+    
+}
+.header_logo {
+    height: 80px;
+    width: 80px;
+}
+.header_link_nav {
+    padding: 0 0 0 50px;
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_content_title {
+    
+}
+.main_content {
+    display: flex;
+}
+.section_title {
+    font-size: 110px;
+    color: var(--title-color);
+    margin: 0 0 0 0;
+    align-items: center;
+}
+.accent {
+    font-size: 110px;
+    color: var(--brand-color);
+}
+.main_section_img {
+    
+    align-items: center;
+        width: 100%;
+}
+.main_button{
+    background-color: var(--brand-color);
+    border: none;
+    align-items: center;
+    width: 60%;
+    color: #fff;
+}
+
+ .my_favorite_sweets .section_title {
+    display: flex;
+    justify-content: center;
+}
+.my_favorite_sweets {
+    background-color: var(--light-color);
+    
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
+.products_cards {
+    width: 30%;
+    background-color: #fff;
+
+}
+.products_cards img {
+    width: 100%;
+}
+
+.advice_from_yummy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.advice_img {
+    align-items: center;
+        width: 100%;
+}
+
+.footer {
+    background-color: var(--brand-color) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer_title{
+    color: var(--light-color);
+}
